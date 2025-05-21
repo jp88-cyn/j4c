@@ -1,10 +1,43 @@
 body {
-    background-image: linear-gradient(
-        rgb(64, 129, 91),
-        rgb(34, 112, 54)
-     );
-     color:rgb(0, 2, 2);
-     font-family: Arial, Helvetica, sans-serif
-     display: flex;
-     flex-direction: column;
+
+    background: #ccee66;
+    margin: 0; /* Fora */
+    padding: 20px 160px; /* Dentro */
+    color:rgb(240, 246, 255); /* Cor do Texto geral */
+    height: 100vh; /* isso aqui e pra mudar o quanto vai a cor do Site/Tamanho da altura dele. */
+
+}
+
+.Logo { /* Isso e quando eu chamo uma classe em especifico, facilitando meu trabalho e previnindo de dar ruim */
+     
+    width: 80px; /* Largura da Imagem */
+
+}
+
+h4 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 80px;
+}
+
+p {
+    font-size: 16px;
+    margin-bottom: 40px;
+}
+
+.link-carrinho{
+    background: #9ab44b;
+    padding: 10px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #000000;
+    transition: 0.4s;
+}
+
+.link-carrinho:hover{
+    opacity: 0.7;
+    
 }
