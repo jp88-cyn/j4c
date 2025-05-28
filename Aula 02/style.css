@@ -1,43 +1,94 @@
 body {
-
-    background: #ccee66;
-    margin: 0; /* Fora */
-    padding: 20px 160px; /* Dentro */
-    color:rgb(240, 246, 255); /* Cor do Texto geral */
-    height: 100vh; /* isso aqui e pra mudar o quanto vai a cor do Site/Tamanho da altura dele. */
+    margin: 0; /*Fora*/
+    padding: 0; /*Dentro*/
+    background: #ccee66; /* cor de fundo */
+    color: #ffffff; /* cor do texto */
+    padding: 20px 160px;
+    height: 100vh; /* altura */
+    
 
 }
 
-.Logo { /* Isso e quando eu chamo uma classe em especifico, facilitando meu trabalho e previnindo de dar ruim */
-     
-    width: 80px; /* Largura da Imagem */
-
+.logo {
+    width: 80px; /* largura */
 }
 
 h4 {
-    font-size: 30px;
+    font-size: 30px; /* tamanho do texto */
 }
 
 h1 {
     font-size: 80px;
 }
 
-p {
+p{
     font-size: 16px;
     margin-bottom: 40px;
 }
 
-.link-carrinho{
-    background: #9ab44b;
+.adicionarCarrinho {
+    background: #a3be52;
     padding: 10px 20px;
     border-radius: 20px;
     cursor: pointer;
     text-decoration: none;
     color: #000000;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
-.link-carrinho:hover{
+.adicionarCarrinho:hover {
     opacity: 0.7;
-    
+}
+
+.imagem-tenis {
+    width: 800px;
+    transform: rotate(-25deg); /*Deixa a imagem de apontando pro canto inferior da tela*/
+    filter: drop-shadow(30px 24px 40px #161616);
+    transition: 1s;
+}
+
+.troca-efeito {
+    opacity: 0;
+    width: 800px;
+    transform: rotate(-25deg) translateY(30px);
+}
+
+
+.caixa-principal {
+    display: flex; /* habilita alguns superpoderes */
+    justify-content: space-between;/* alinha na horizontal */
+    align-items: center;  /* alinha na vertical */
+    height: 90%;
+}
+
+.caixa-textos {
+    max-width: 500px; /* largura maxima */
+}
+
+.caixa-botoes {
+    display: flex;
+    gap: 10px;
+}
+
+.botoes {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.botoes:active {
+    opacity: 0.6;
+}
+
+.verde{
+    background: #ccee66
+}
+
+.azul{
+    background: #58cced
+}
+
+.rosa {
+    background: #ff9eb5
 }
