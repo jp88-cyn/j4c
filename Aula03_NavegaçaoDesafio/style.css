@@ -1,0 +1,61 @@
+
+body {
+    background: #989b9b;
+    margin: 0;
+    padding: 0;
+    /* background-image: url(); */
+    
+}
+
+
+.AreaPrincipal {
+    
+    margin: 20px;
+    padding: 200px 80px;
+    background: rgba(115, 115, 119, 0.933);
+    height: 40vh;
+    border-radius: 20px;
+    position: relative;
+    max-width: 200px 200px;
+    color: #202020;
+}
+
+.CaixaBotoes {
+    margin: 200px;
+    padding: 30px 100px;
+    border-radius: 20px;
+
+}
+
+.LinkVerde {
+    margin: 50px;
+    padding: 20px 25px;
+    gap: 20px;
+    border-radius: 20px;
+    background: rgba(61, 126, 88, 0.933);
+    max-width: 160px;
+}
+
+.LinkAmarelo {
+    margin: 50px;
+    padding: 20px 25px;
+    gap: 20px;
+    border-radius: 20px;
+    background: rgba(125, 126, 61, 0.933);
+    max-width: 172px;
+}
+
+.LinhaDelete {
+    text-decoration: none;
+}
+
+    .ImagemAnimada {
+      width: 100px;
+      height: 100px;
+      transition: transform 2s ease-in-out; 
+      
+    }
+
+    .ImagemAnimada:hover {
+      transform: rotate(360deg); 
+    }

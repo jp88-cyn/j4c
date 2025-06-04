@@ -1,0 +1,23 @@
+body {
+    background: #0a6b2f;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.AreaPrincipal {
+    
+    margin: 20px;
+    padding: 200px 80px;
+    background: rgba(96, 226, 107, 0.933);
+    height: 40vh;
+    border-radius: 20px;
+    position: relative;
+    max-width: 200px 200px;
+    color: #16ac09;
+}
+
+.LinkCinza {
+    text-decoration: none;
+}
