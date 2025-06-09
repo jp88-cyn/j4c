@@ -1,0 +1,43 @@
+body {
+    background: #4444;
+
+}
+
+.caixa-principal {
+    display: flex;
+    margin-top: 65px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+iframe {
+    
+}
+
+/* .caixa-principal {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    top: 50px;
+    position: relative;
+    flex-wrap: wrap;
+    list-style-type: square;
+    
+    margin: 0;
+    padding: 0;
+    line-height: 0px;
+    list-style-type: none;
+    
+
+}
+
+iframe {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
+    left: 20px;
+}
+/*
+    
+/* Canal do Youtube para aprender coisas em geral programaçao: devclub */
+/* Pesquisar sobre Media Carry */
