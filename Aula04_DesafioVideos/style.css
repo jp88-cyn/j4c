@@ -8,10 +8,50 @@ body {
     margin-top: 65px;
     justify-content: center;
     flex-wrap: wrap;
+    
 }
 
 iframe {
     
+}
+
+header {
+    display: flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #202020;
+    justify-content: center;
+    color: aliceblue;
+    height: 5vh;
+    margin: 20px;
+    padding: 20px;
+    
+    
+}
+
+footer {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #202020;
+    justify-content: center;
+    color: aliceblue;
+    
+    height: 5vh;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+a {
+    gap: 20px;
+    text-decoration: none;
+    left: 200px;
+    text-decoration-color: cyan;
+}
+
+h1 {
+    justify-content: center;
+    display: flex;
+    color: crimson;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 /* .caixa-principal {
@@ -41,3 +81,12 @@ iframe {
     
 /* Canal do Youtube para aprender coisas em geral programaçao: devclub */
 /* Pesquisar sobre Media Carry */
+
+
+/* 
+- Header
+- Main
+- Section ( dentro dela as divs e etc )
+- Footer 
+
+*/
